@@ -13,7 +13,7 @@ my $json_xs = JSON::XS->new;
 $json_xs->utf8(1);
 
 my %connection_params = (
-    'server_url' => 'http://moderate.cleantalk.ru',
+    'server_url' => 'https://moderate.cleantalk.org',
     'server_url' => 'http://localhost',
     'api_url' => '/api2.0',
     'auth_key' => undef, 
@@ -122,7 +122,7 @@ The following options correspond to attribute methods described below:
 
     KEY                     DEFAULT
     -----------             --------------------
-    server_url              http://moderate.cleantalk.ru 
+    server_url              https://moderate.cleantalk.org 
     api_url                 /api2.0
     auth_key                undef
     connection_timeout      3 
@@ -145,7 +145,7 @@ This method will dispatch call to servers. There will be reference to a hash wit
 
 =head1 AUTHOR
 
-CleanTalk, C<< <welcome at cleantalk.ru> >>
+CleanTalk, C<< <welcome at cleantalk.org> >>
 
 =head1 BUGS
 

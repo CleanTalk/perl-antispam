@@ -1,7 +1,7 @@
 ---
 abstract: 'test visitors accounts or posts for spam '
 author:
-  - 'CleanTalk <welcome@cleantalk.ru>'
+  - 'CleanTalk <welcome@cleantalk.org>'
 build_requires:
   Test::More: 0
 configure_requires:

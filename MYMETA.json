@@ -1,7 +1,7 @@
 {
    "abstract" : "test visitors accounts or posts for spam ",
    "author" : [
-      "CleanTalk <welcome@cleantalk.ru>"
+      "CleanTalk <welcome@cleantalk.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "ExtUtils::MakeMaker version 6.72, CPAN::Meta::Converter version 2.120351",

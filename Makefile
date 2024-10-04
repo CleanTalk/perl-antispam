@@ -12,7 +12,7 @@
 #   MakeMaker Parameters:
 
 #     ABSTRACT_FROM => q[lib/WebService/Antispam.pm]
-#     AUTHOR => [q[CleanTalk <welcome@cleantalk.ru>]]
+#     AUTHOR => [q[CleanTalk <welcome@cleantalk.org>]]
 #     BUILD_REQUIRES => { Test::More=>q[0] }
 #     CONFIGURE_REQUIRES => { ExtUtils::MakeMaker=>q[0] }
 #     LICENSE => q[Artistic_2_0]
@@ -484,7 +484,7 @@ metafile : create_distdir
 	$(NOECHO) $(ECHO) '---' > META_new.yml
 	$(NOECHO) $(ECHO) 'abstract: '\''test visitors accounts or posts for spam '\''' >> META_new.yml
 	$(NOECHO) $(ECHO) 'author:' >> META_new.yml
-	$(NOECHO) $(ECHO) '  - '\''CleanTalk <welcome@cleantalk.ru>'\''' >> META_new.yml
+	$(NOECHO) $(ECHO) '  - '\''CleanTalk <welcome@cleantalk.org>'\''' >> META_new.yml
 	$(NOECHO) $(ECHO) 'build_requires:' >> META_new.yml
 	$(NOECHO) $(ECHO) '  Test::More: 0' >> META_new.yml
 	$(NOECHO) $(ECHO) 'configure_requires:' >> META_new.yml
@@ -510,7 +510,7 @@ metafile : create_distdir
 	$(NOECHO) $(ECHO) '{' > META_new.json
 	$(NOECHO) $(ECHO) '   "abstract" : "test visitors accounts or posts for spam ",' >> META_new.json
 	$(NOECHO) $(ECHO) '   "author" : [' >> META_new.json
-	$(NOECHO) $(ECHO) '      "CleanTalk <welcome@cleantalk.ru>"' >> META_new.json
+	$(NOECHO) $(ECHO) '      "CleanTalk <welcome@cleantalk.org>"' >> META_new.json
 	$(NOECHO) $(ECHO) '   ],' >> META_new.json
 	$(NOECHO) $(ECHO) '   "dynamic_config" : 1,' >> META_new.json
 	$(NOECHO) $(ECHO) '   "generated_by" : "ExtUtils::MakeMaker version 6.72, CPAN::Meta::Converter version 2.120351",' >> META_new.json
@@ -850,7 +850,7 @@ testdb_static :: testdb_dynamic
 ppd :
 	$(NOECHO) $(ECHO) '<SOFTPKG NAME="$(DISTNAME)" VERSION="$(VERSION)">' > $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '    <ABSTRACT>test visitors accounts or posts for spam </ABSTRACT>' >> $(DISTNAME).ppd
-	$(NOECHO) $(ECHO) '    <AUTHOR>CleanTalk &lt;welcome@cleantalk.ru&gt;</AUTHOR>' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '    <AUTHOR>CleanTalk &lt;welcome@cleantalk.org&gt;</AUTHOR>' >> $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '    <IMPLEMENTATION>' >> $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '        <PERLCORE VERSION="5,006,0,0" />' >> $(DISTNAME).ppd
 	$(NOECHO) $(ECHO) '        <REQUIRE NAME="JSON::XS" />' >> $(DISTNAME).ppd

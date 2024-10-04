@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME             => 'WebService::Antispam',
-    AUTHOR           => q{CleanTalk <welcome@cleantalk.ru>},
+    AUTHOR           => q{CleanTalk <welcome@cleantalk.org>},
     VERSION_FROM     => 'lib/WebService/Antispam.pm',
     ABSTRACT_FROM    => 'lib/WebService/Antispam.pm',
     LICENSE          => 'Artistic_2_0',
