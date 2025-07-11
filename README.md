@@ -1,4 +1,15 @@
-WebService-Antispam
+# WebService::Antispam — Perl Spam Protection for Web Forms
+
+A Perl client for the CleanTalk anti-spam web service.  
+This module provides invisible spam protection for forms — without CAPTCHAs, puzzles, or user interruption.
+
+## Features
+
+- Real-time spam detection using CleanTalk cloud API  
+- Checks IP, email, and message content against spam databases  
+- CAPTCHA-free user experience  
+- Protects comment, contact, and registration forms  
+- Suitable for any Perl-based web application
 
 The README is used to introduce the module and provide instructions on
 how to install the module, any machine dependencies it may have (for
